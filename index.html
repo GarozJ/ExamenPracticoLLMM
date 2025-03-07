@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetFighter - UNIR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/arcade.png">
+</head>
+
+<body>
+
+    <h1>To live is to fight, to fight is to live!</h1>
+
+    <table>
+        <tr>
+            <td id="cabecera" colspan="4">Street Fighter</td>
+        </tr>
+        <tr>
+            <td><span>Ken</span><img src="img/ken.png"></td>
+            <td><span>Chun li</span><img src="img/ChunLi.png"></td>
+            <td><span>Zangief</span><img src="img/Zangief.png"></td>
+            <td><span>Dhalsim</span><img src="img/Dhalsim.png"></td>
+        </tr>
+        <tr>
+            <td><span>Ryu</span><img src="img/Ryu.png"></td>
+            <td><span>E Honda</span><img src="img/EHonda.png"></td>
+            <td><span>Blanka</span><img src="img/Blanka.png"></td>
+            <td><span>Guille</span><img src="img/Guille.png"></td>
+        </tr>
+        <tr>
+            <td><span>T Hank</span><img src="img/THawk.png"></td>
+            <td><span>Feilong</span><img src="img/Feilong.png"></td>
+            <td><span>Dee Jay</span><img src="img/DeeJay.png"></td>
+            <td><span>Cammy</span><img src="img/Cammy.png"></td>
+        </tr>
+        <tr>
+            <td><span>Balrog</span><img src="img/Balrog.png"></td>
+            <td><span>Vega</span><img src="img/Vega.png"></td>
+            <td><span>Sagat</span><img src="img/Sagat.png"></td>
+            <td><span>M Bison</span><img src="img/MBison.png"></td>
+        </tr>
+    </table>
+
+    <h2>Formulario de inscripción para jugar a Street Figther</h2>
+
+    <form>
+        <fieldset>
+            <legend>DATOS PERSONALES</legend>
+            <label>Nombre:</label>
+            <input type="text" name="nombre">
+            <label>Apellidos:</label>
+            <input type="text" name="apellidos">
+            <label>Dirección Postal:</label>
+            <input type="text" placeholder="Calle">
+            <input type="text" placeholder="N°">
+            <input type="text" placeholder="Piso">
+            <input type="text" placeholder="Código Postal">
+            <input type="text" placeholder="Ciudad">
+            <label>Nick:</label>
+            <input type="text" name="nick">
+            <label>Correo Electrónico:</label>
+            <input type="email" name="email">
+        </fieldset>
+
+        <fieldset>
+            <legend>SEXO USUARIO</legend>
+            <label><input type="radio" value="hombre"> Hombre</label>
+            <label><input type="radio" value="mujer"> Mujer</label>
+            <label><input type="radio" value="no-decidir"> Prefiero no decirlo</label>
+        </fieldset>
+
+        <fieldset>
+            <label>Fecha nacimiento:</label>
+            <input type="date" name="fecha_nacimiento">
+        </fieldset>
+
+        <fieldset>
+            <legend>PERSONAJES</legend>
+            <label>Selecciona el personaje:<input type="text" name="personaje"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>COMENTARIOS</legend>
+            <textarea name="comentarios"></textarea>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+
+</body>
+
+</html>
